@@ -88,8 +88,8 @@ a:hover {
   border: 1px solid var(--border-color);
   border-radius: 16px;
   width: 100%;
-  max-width: 480px;
-  padding: 3.5rem 2.75rem;
+  max-width: 400px;
+  padding: 2.25rem 2rem;
   box-shadow: var(--shadow-lg);
   animation: fadeIn 0.4s ease-out;
 }
@@ -102,8 +102,8 @@ a:hover {
 .icon-wrapper {
   background: transparent;
   border: none;
-  width: 104px;
-  height: 104px;
+  width: 80px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -112,7 +112,7 @@ a:hover {
 
 .branding-title {
   font-family: var(--font-title);
-  font-size: 2.25rem;
+  font-size: 1.85rem;
   font-weight: 700;
   color: var(--text-primary);
   margin-bottom: 0.5rem;
@@ -121,7 +121,7 @@ a:hover {
 
 .branding-subtitle {
   color: var(--text-secondary);
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 /* Error Banner */
@@ -146,7 +146,7 @@ a:hover {
 
 .form-group label {
   display: block;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 500;
   color: var(--text-secondary);
   margin-bottom: 0.5rem;
@@ -159,8 +159,8 @@ a:hover {
   border: 1px solid var(--border-color);
   border-radius: 12px;
   color: var(--text-primary);
-  padding: 0.85rem 1rem;
-  font-size: 0.95rem;
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
   transition: all 0.25s ease;
 }
 
@@ -181,9 +181,9 @@ a:hover {
   color: var(--text-primary);
   border: none;
   border-radius: 12px;
-  padding: 0.95rem;
+  padding: 0.85rem;
   font-family: var(--font-title);
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-weight: 700;
   cursor: pointer;
   margin-top: 1rem;
